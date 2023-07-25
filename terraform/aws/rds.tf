@@ -11,7 +11,9 @@ resource "aws_rds_cluster" "app1-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "17d28c8b-64fb-48fb-9cc3-23943e093d2a"
+    yor_name             = "app1-rds-cluster"
   }
+  deletion_protection = true
 }
 
 resource "aws_rds_cluster" "app2-rds-cluster" {
@@ -27,6 +29,7 @@ resource "aws_rds_cluster" "app2-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "7354ea2c-9fb4-4edf-9f58-ed02fb37f128"
+    yor_name             = "app2-rds-cluster"
   }
 }
 
@@ -43,6 +46,7 @@ resource "aws_rds_cluster" "app3-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "c1d0d4a7-0e9f-49c8-9d4a-cad578f5e54f"
+    yor_name             = "app3-rds-cluster"
   }
 }
 
@@ -59,6 +63,7 @@ resource "aws_rds_cluster" "app4-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "26b947fb-b043-4966-b1ef-b2bdeb73062f"
+    yor_name             = "app4-rds-cluster"
   }
 }
 
@@ -75,6 +80,7 @@ resource "aws_rds_cluster" "app5-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "e51d945f-b356-4d52-bce6-b7ad16d2a5dd"
+    yor_name             = "app5-rds-cluster"
   }
 }
 
@@ -91,6 +97,7 @@ resource "aws_rds_cluster" "app6-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "0f5353fe-650c-4c54-9d61-cce218579c40"
+    yor_name             = "app6-rds-cluster"
   }
 }
 
@@ -107,6 +114,7 @@ resource "aws_rds_cluster" "app7-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "524915f9-c487-4cfe-aba1-101cc50d2531"
+    yor_name             = "app7-rds-cluster"
   }
 }
 
@@ -123,6 +131,7 @@ resource "aws_rds_cluster" "app8-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "7545a68e-1680-4abd-8248-214cd0158128"
+    yor_name             = "app8-rds-cluster"
   }
 }
 
@@ -139,5 +148,6 @@ resource "aws_rds_cluster" "app9-rds-cluster" {
     git_org              = "rschunk"
     git_repo             = "terragoat"
     yor_trace            = "7a60b1ad-2a97-4a88-8c25-9f5c21f74d68"
+    yor_name             = "app9-rds-cluster"
   }
 }
